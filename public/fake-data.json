@@ -1,0 +1,123 @@
+[
+  {
+    "id": "1",
+    "price": 800,
+    "name": "Rastar Kutta" , 
+    "img": "https://www.programmableweb.com/sites/default/files/styles/article_profile_150x150/public/Placedog.jpg?itok=AQP79jjk"
+  },
+  {
+    "id": "2",
+    "price": 1500,
+    "name": "Boroloker Kutta" , 
+    "img": "https://www.programmableweb.com/sites/default/files/styles/article_profile_150x150/public/random.dog_API_Image.jpg?itok=NT8VAm6g"
+  },
+  {
+    "id": "3",
+    "price": 200,
+    "name": "Raisar Habi",
+    "img": "https://scontent.xx.fbcdn.net/v/t1.15752-9/275693712_1089536475233733_4003379005434620192_n.jpg?stp=dst-jpg_s403x403&_nc_cat=109&ccb=1-5&_nc_sid=aee45a&_nc_eui2=AeFrkX_6m_MUHsjFGaUO0ati0HD6ZYD0t4bQcPplgPS3hqG3tNvNmVlHJm7ZNDON5guw0rJuw79ZjkZ8TAPla0FH&_nc_ohc=JWR-g8eDknUAX8QVZJG&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AVI95vrpvgucjvUkOVZJzpCbJrNzEDp0gbdcsTYPwY6lPw&oe=6264B4C0"
+  },
+  {
+    "id": "4",
+    "price": 323,
+    "name": "Robot Kutta" , 
+    "img": "https://www.programmableweb.com/sites/default/files/styles/article_profile_150x150/public/PetRescue%20API%20Image.jpeg?itok=mHg0M037"
+  },
+  {
+    "id": "5",
+    "price": 100,
+    "name": "Green Bird" ,
+    "img": "https://media.istockphoto.com/photos/pet-bird-sitting-on-owners-finger-picture-id1284866835?b=1&k=20&m=1284866835&s=170667a&w=0&h=ec1HKOw8Cc4Gf8TZhpZ0EXtTQWbmXttDFwndV98UXp0="
+  },
+  {
+    "id": "6",
+    "price": 150,
+    "name": "JUngle er Khorgosh" , 
+    "img": "https://images.unsplash.com/photo-1592304766616-aeadf7817c84?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8ZG9tZXN0aWMlMjBhbmltYWx8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
+  },
+  {
+    "id": "7",
+    "price": 40,
+    "name": "RoAr Murgi" ,
+    "img": "https://images.unsplash.com/photo-1607931042288-0c82960d4afc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8ZG9tZXN0aWMlMjBhbmltYWx8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
+  },
+  {
+    "id": "8",
+    "price": 490,
+    "name": "Sukor" , 
+    "img": "https://images.unsplash.com/photo-1550781088-fe4ae3b87430?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fGRvbWVzdGljJTIwYW5pbWFsfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+  },
+  {
+    "id": "9",
+    "price": 350,
+    "name": "Kath Biral" ,
+    "img": "https://images.unsplash.com/photo-1506183898222-eefad9f06350?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTl8fGRvbWVzdGljJTIwYW5pbWFsfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+  },
+  {
+    "id": "10",
+    "price": 496,
+    "name": "Golla Kobutor" ,
+    "img": "https://images.unsplash.com/photo-1606643008008-dc6e800d1c7d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fGRvbWVzdGljJTIwYW5pbWFsfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+  },
+  {
+    "id": "11",
+    "price": 1000,
+    "name": "Teacher Kutta",
+    "img": "https://images.unsplash.com/photo-1541364983171-a8ba01e95cfc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8cGV0fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+  } ,
+  {
+    "id": "12",
+    "price": 500,
+    "name": "Jadu Kutta",
+    "img": "https://images.unsplash.com/photo-1530041539828-114de669390e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8cGV0fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+  },
+  {
+    "id": "13",
+    "price": 700,
+    "name": "Super Kutta",
+    "img": "https://images.unsplash.com/photo-1532202802379-df93d543bac3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fHBldHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+  },
+  {
+    "id": "14",
+    "price": 300,
+    "name": "Jore Dhora Kutta",
+    "img": "https://images.unsplash.com/photo-1453227588063-bb302b62f50b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fHBldHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+  },
+  {
+    "id": "15",
+    "price": 1500,
+    "name": "Romantic Bilai",
+    "img": "https://images.unsplash.com/photo-1526336024174-e58f5cdd8e13?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8cGV0fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+  },
+  {
+    "id": "16",
+    "price": 496,
+    "name": "Angry peca" ,
+    "img": "https://media.istockphoto.com/photos/great-horned-owl-with-two-owlets-picture-id1314666282?b=1&k=20&m=1314666282&s=170667a&w=0&h=_h69H3bM1O1lsGEnRaxPVxWNI80Ybjg5QR7LJEMu8cc="
+  },
+  {
+    "id": "17",
+    "price": 900,
+    "name": "Fish Khor",
+    "img": "https://images.unsplash.com/photo-1470114716159-e389f8712fda?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGJpcmRzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+  },
+  {
+    "id": "18",
+    "price": 500,
+    "name": "Cora Bilai" ,
+    "img": "https://www.programmableweb.com/sites/default/files/styles/article_profile_150x150/public/Request%20Kittens%20API%20Image.jpg?itok=QNS69APK"
+   
+  } ,
+  {
+    "id": "19",
+    "price": 400,
+    "name": "Rapper Bird" ,
+    "img": "https://images.unsplash.com/photo-1612311683149-939135aa6afa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fGJpcmRzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+  } ,
+  {
+    "id": "20",
+    "price": 1050,
+    "name": "Calak Indur" ,
+    "img": "https://images.unsplash.com/photo-1624116518496-993146f67f4a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cmF0fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+  }
+]
