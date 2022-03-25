@@ -1,0 +1,46 @@
+.header{
+  height: 70px;
+  background-color: aliceblue;
+  display: grid;
+  grid-template-columns: repeat(2 , 1fr);
+  align-items: center;
+}
+.title{
+  font-size: 25px;
+  font-weight: bolder;
+  margin-left: 100px;
+}
+.nav{
+  margin-left: 200px;
+}
+nav span {
+  margin-right: 20px;
+  cursor: pointer;
+}
+nav span:hover{
+  color: blue;
+}
+
+@media only screen and (max-width: 700px) {
+  .title{
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 20px;
+  }
+  .nav{
+    margin-left: 100px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .title{
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 20px;
+  }
+  .nav{
+    margin-left: 0px;
+  }
+  nav span {
+    margin-right: 8px;
+  }
+}
