@@ -12,3 +12,16 @@
 .cart{
   width: 18%;
 }
+@media only screen and (max-width: 1060px){
+  .product{
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+  }
+}
+@media only screen and (max-width: 878px){
+  .product{
+    width: 60%;
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+}
