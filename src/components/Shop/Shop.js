@@ -19,7 +19,6 @@ const Shop = () => {
     } else {
       setChosenItem([...chosenItem, item])
     }
-    console.log('click item', chosenItem);
   }
   return (
     <div className='shop-container'>
