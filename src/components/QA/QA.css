@@ -14,3 +14,8 @@
 .blog-title{
   text-align: center
 }
+@media only screen and (max-width: 768px){
+  .blog-container{
+    grid-template-columns: repeat(1 , 1fr);
+  }
+}
