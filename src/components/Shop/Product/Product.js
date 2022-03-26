@@ -8,7 +8,7 @@ const Product = ({pro , click}) => {
   return (
     <div className='card-container'>
       <div className="image">
-        <img src={img} alt="" />
+        <img className='zoom-img' src={img} alt="" />
       </div>
       <div className="details">
         <h3>{name}</h3>

@@ -11,19 +11,20 @@ const Shop = () => {
       .then(data => setProducts(data))
   }, []);
 
-  let chosenItem = [];
-  const hadleEvent = (item) => {
+
+  const [chosenItem, setChosenItem] = useState([]);
+  const handleEvent = (item) => {
     if (chosenItem.indexOf(item) !== -1) {
       return;
     } else {
-      chosenItem.push(item)
+      setChosenItem([...chosenItem, item])
     }
     console.log('click item', chosenItem);
   }
   return (
     <div className='shop-container'>
       <div className="product">
-        {products.map(product => <Product key={product.id} pro={product} click={() => hadleEvent(product)}></Product>)}
+        {products.map(product => <Product key={product.id} pro={product} click={() => handleEvent(product)}></Product>)}
       </div>
       <div className="cart">
         <Cart items={chosenItem}></Cart>

@@ -1,5 +1,6 @@
 import React from 'react';
 import './Cart.css'
+import Choosen from './Choosen/Choosen';
 
 const Cart = ({items}) => {
   return (
@@ -9,7 +10,7 @@ const Cart = ({items}) => {
       <div className="selected-item">
         <h4>Selected Items</h4>
         <div className="chosen">
-          {items.map(item => <h2>{item.name}</h2> )}
+          {items.map(item => <Choosen key={item.id} data={item}></Choosen> )}
         </div>
         <button className='btn-success'>Choose One Random</button> <br />
         <button className='btn-danger'>Clear Cart</button>

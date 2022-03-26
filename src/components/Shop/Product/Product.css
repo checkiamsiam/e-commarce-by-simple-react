@@ -1,13 +1,13 @@
 .image{
 overflow: hidden;
 }
-img {
+.zoom-img{
   width: 300px;
   height: 300px;
   border-radius: 5px;
   transition: .8s;
 }
-img:hover{
+.zoom-img:hover{
   transform: scale(1.2);
 }
 .card-container {
