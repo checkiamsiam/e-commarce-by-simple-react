@@ -1,0 +1,23 @@
+.cart-body{
+  padding: 10px;
+  background-color: rgb(212, 189, 189);
+  position: fixed;
+}
+.heading-of-cart{
+  text-align: center;
+}
+.btn-success{
+  background-color: rgb(224, 219, 219);
+  color: green;
+  width: 100%;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+.btn-danger{
+  width: 100%;
+  background-color: rgb(224, 219, 219);
+  color: red;
+  padding: 5px 20px;
+  border-radius: 5px;
+  margin-top: 5px;
+}

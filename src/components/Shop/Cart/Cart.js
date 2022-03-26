@@ -4,7 +4,16 @@ import './Cart.css'
 const Cart = () => {
   return (
     <div>
-      <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente incidunt facilis consectetur autem explicabo reiciendis aliquid minus non, vero mollitia nemo dignissimos sint, officiis voluptatibus cumque nihil sequi, accusantium ad repellendus. Sed debitis asperiores accusamus consequuntur commodi magnam aliquid perferendis omnis ipsum, possimus reprehenderit explicabo.</h2>
+      <div className="cart-body">
+      <h2 className='heading-of-cart'>Shopping Cart</h2>
+      <div className="selected-item">
+        <h4>Selected Items</h4>
+        
+        <button className='btn-success'>Choose One Random</button> <br />
+        <button className='btn-danger'>Clear Cart</button>
+        
+      </div>
+      </div>
     </div>
   );
 };

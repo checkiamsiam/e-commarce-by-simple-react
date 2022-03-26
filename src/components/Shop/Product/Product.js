@@ -12,7 +12,7 @@ const Product = (props) => {
       </div>
       <div className="details">
         <h3>{name}</h3>
-        <h5>price: ${price}</h5>
+        <h5>price: <span className='tk'>&#2547;</span> {price}</h5>
       </div>
       <div className="add-btn">
         Add To Cart    <FontAwesomeIcon icon={faShoppingCart} />
