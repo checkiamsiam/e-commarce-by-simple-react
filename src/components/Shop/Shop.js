@@ -14,10 +14,11 @@ const Shop = () => {
 
   const [chosenItem, setChosenItem] = useState([]);
   const handleEvent = (item) => {
+
     if (chosenItem.indexOf(item) !== -1) {
       return;
     } else {
-      setChosenItem([...chosenItem, item])
+      setChosenItem([...chosenItem, item]);
     }
   }
   return (
@@ -26,7 +27,7 @@ const Shop = () => {
         {products.map(product => <Product key={product.id} pro={product} click={() => handleEvent(product)}></Product>)}
       </div>
       <div className="cart">
-        <Cart items={chosenItem}></Cart>
+        <Cart items={chosenItem} empty={setChosenItem}></Cart>
       </div>
     </div>
   );

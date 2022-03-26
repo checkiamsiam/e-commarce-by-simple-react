@@ -3,15 +3,23 @@ import './Cart.css'
 import Choosen from './Choosen/Choosen';
 import Random from './Random/Random';
 
-const Cart = ({ items }) => {
+const Cart = ({ items , empty}) => {
+
   const [randomOne, setRandomOne] = useState({});
+
+
   const chooseRandom = () => {
     let randomIndex = Math.floor(Math.random() * items.length);
     setRandomOne(items[randomIndex]);
   }
+
+
   const ClearCart = () => {
-    window.location.reload();
+     setRandomOne({});
+     empty([]);
   }
+
+  
   return (
     <div>
       <div className="cart-body">
