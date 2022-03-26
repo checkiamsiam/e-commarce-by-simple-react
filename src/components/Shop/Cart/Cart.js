@@ -10,7 +10,7 @@ const Cart = ({ items }) => {
     setRandomOne(items[randomIndex]);
   }
   const ClearCart = () => {
-    
+    window.location.reload();
   }
   return (
     <div>
@@ -20,8 +20,8 @@ const Cart = ({ items }) => {
           <h4>Selected Items</h4>
           <div id='chose' className="chosen">
             {items.map(item => <Choosen key={item.id} data={item}></Choosen>)}
-          </div>
             <Random randomData={randomOne}></Random>
+          </div>
           <button onClick={chooseRandom} className='btn-success'>Choose One Random</button> <br />
           <button onClick={ClearCart} className='btn-danger'>Clear Cart</button>
 

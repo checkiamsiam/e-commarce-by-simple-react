@@ -1,0 +1,16 @@
+.blog-container{
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(3 , 1fr);
+  gap: 20px;
+  padding: 20px;
+}
+.blog{
+  padding: 20px;
+  background-color: rgb(240, 221, 221);
+  border-radius: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.blog-title{
+  text-align: center
+}
